@@ -12,9 +12,12 @@ This lib will work best if you use in a RStudio custom  install as described her
 ```R
 # R Commands:
 ## 1. install
-install.packages('helper4geosampa', repo='https://github.com/i40poster/geoSampaRHelper', type='source')
+library(devtools)
+devtools::install_github("i40poster/geoSampaRHelper")
 
 ## 2 .Sample of use:
+library(helper4geosampa)
+
 Abastecimento = downloadAndUnzipShp("http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/downloadArquivoOL.aspx?orig=DownloadCamadas&arq=03_Equipamentos%5C%5CAbastecimento%5C%5CShapefile%5C%5Cequipamento_abastecimento&arqTipo=Shapefile")
 
 ## 3. Working with Data:
