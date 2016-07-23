@@ -12,6 +12,7 @@ This lib will work best if you use in a RStudio custom  install as described her
 ```R
 # R Commands:
 ## 1. install
+install.packages("devtools")
 library(devtools)
 devtools::install_github("i40poster/geoSampaRHelper")
 
