@@ -5,7 +5,7 @@ The goal of this project is to provide a helper lib to handle Sao Paulo/SP/Brazi
 
 # Observation
 
-This lib will work best if you use in a RStudio custom  install as described here at: [i40poster/geoSampaRHelper](https://github.com/i40poster/geoSampaRHelper)
+This lib will work best if you use in a RStudio custom install that is  described at [i40poster/geoFracker](https://github.com/i40poster/geoFracker).
 
 # Use
 
