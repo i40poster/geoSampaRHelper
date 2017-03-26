@@ -19,7 +19,10 @@ devtools::install_github("i40poster/geoSampaRHelper")
 ## 2 .Sample of use:
 library(helper4geosampa)
 
-Abastecimento = downloadAndUnzipShp("http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/downloadArquivoOL.aspx?orig=DownloadCamadas&arq=03_Equipamentos%5C%5CAbastecimento%5C%5CShapefile%5C%5Cequipamento_abastecimento&arqTipo=Shapefile")
+Abastecimento = downloadAndUnzipShp("http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/downloadArquivoOL.aspx?orig=DownloadCamadas&arq=03_Equipamentos%5C%5CAbastecimento%5C%5CShapefile%5C%5CEQUIPAMENTOS_SHP_TEMA_ABASTECIMENTO&arqTipo=Shapefile")
+
+http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/downloadArquivoOL.aspx?orig=DownloadCamadas&arq=03_Equipamentos%5C%5CAbastecimento%5C%5CShapefile%5C%5Cequipamento_abastecimento&arqTipo=Shapefile
+http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/downloadArquivoOL.aspx?orig=DownloadCamadas&arq=03_Equipamentos%5C%5CAbastecimento%5C%5CShapefile%5C%5CEQUIPAMENTOS_SHP_TEMA_ABASTECIMENTO&arqTipo=Shapefile
 
 ## 3. Working with Data:
 ### Loading layer of data:
@@ -42,3 +45,5 @@ AbastecimentoFinal <- rbind(Abastecimento1,Abastecimento2,Abastecimento3)
 # Reference
 
 Data source: [Digital Map of the City of São Paulo](http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx)
+
+Created based on: [Source](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
